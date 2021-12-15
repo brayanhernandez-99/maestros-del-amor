@@ -1,4 +1,3 @@
-
-# HTID:12666656: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
-# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12666656:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^maestrosdelamor\.net\.co$
+RewriteRule ^\*\.maestrosdelamor\.net\.co\/?(.*)$ "https\:\/\/\*\.maestrosdelamor\.net\.co\/$1" [R=301,L]

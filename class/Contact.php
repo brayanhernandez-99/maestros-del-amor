@@ -2,21 +2,24 @@
 
 include './includes/connection.php';
 
-class Contacto {
+class Contacto
+{
 
     private $fecha;
     private $nombre;
     private $telefono;
     private $consulta;
 
-    function Contacto($fecha, $nombre, $telefono, $consulta) {
+    function Contacto($fecha, $nombre, $telefono, $consulta)
+    {
         $this->fecha = $fecha;
         $this->nombre = $nombre;
         $this->telefono = $telefono;
         $this->consulta = $consulta;
     }
 
-    function Enviar() {
+    function Enviar()
+    {
         $db = new Conexion();
         if ($db->connect_errno) {
             echo '<script type="text/javascript"> alert("Acces denied for Data Base"); </script>';
@@ -31,5 +34,4 @@ class Contacto {
             $db->close();
         }
     }
-
 }

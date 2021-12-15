@@ -4,8 +4,6 @@
         <hr />
         <div class="row">
             <div class="col-12">
-                
-                <!-- ADVERTENCIA -->
                 <section class="contact">
                     <header>
                         <h3><a>ADVERTENCIA</a></h3>
@@ -18,27 +16,24 @@
                             <br />
                             Estos servicios no sustituirán la debida atención médica, legal, financiera, psicológica y psiquiátrica.
                             <br />
-                            Todas las personas son diferentes, por lo tanto, los resultados pueden variar de una persona a otra ademas los resultados ante cada caso son probables y no existe evidencia científica o eficacia de los mismos. 
+                            Todas las personas son diferentes, por lo tanto, los resultados pueden variar de una persona a otra ademas los resultados ante cada caso son probables y no existe evidencia científica o eficacia de los mismos.
                             <br />
                             Ningún resultado puede garantizarse en un 100%, todos los resultados pueden variar dependiendo de cada persona.
-                        </a>    
+                        </a>
                     </p>
                     <ul class="icons">
                         <li>Contáctanos: </li>
-                        <li><a href="https://api.whatsapp.com/send?phone=13473499645&text=Maestro necesito una consulta" class="icon brands fa fa-whatsapp"><span class="label">WhatsApp</span></a></li>
-                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                        <li><a href="<?php echo htmlentities("https://api.whatsapp.com/send?phone=13473499645&text=Maestro necesito una consulta."); ?>" target="_blank" class="icon brands fa fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+                        <li><a href="<?php echo htmlentities("https://m.me/centroespiritualmaestrosdelamor&text=Maestro necesito una consulta."); ?>" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
                     </ul>
                 </section>
-
-                <!-- Copyright -->
                 <div class="copyright">
                     <ul class="menu">
-                        <li>&copy; Maestros Del Amor.</li><li>Design: <a href="index.php">Maestros Del Amor.</a></li>
+                        <li>&copy; Maestros Del Amor</li>
+                        <li>Design: <a href="index.php">Maestros Del Amor</a></li>
                     </ul>
                 </div>
-
             </div>
-
         </div>
     </div>
 </div>
