@@ -1,5 +1,5 @@
 <?php
-$Title = "Políticas Y Terminos";
+$Title = "Términos y condiciones";
 $Page = "politics";
 include 'utilitys/header.php';
 ?>
@@ -9,7 +9,7 @@ include 'utilitys/header.php';
         <div id="header">
             <div class="inner">
                 <header>
-                    <h1><a>POLÍTICAS Y TÉRMINOS DE USO</a></h1>
+                    <h1><a>TÉRMINOS Y CONDICIONES DE USO</a></h1>
                 </header>
                 <p>
                     <strong><a>TÉRMINOS Y CONDICIONES DE USO:</a></strong>
