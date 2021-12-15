@@ -24,7 +24,7 @@
                     <ul class="icons">
                         <li>Contáctanos: </li>
                         <li><a href="<?php echo htmlentities("https://api.whatsapp.com/send?phone=13473499645&text=Maestro necesito una consulta."); ?>" target="_blank" class="icon brands fa fa-whatsapp"><span class="label">WhatsApp</span></a></li>
-                        <li><a href="<?php echo htmlentities("https://m.me/centroespiritualmaestrosdelamor&text=Maestro necesito una consulta."); ?>" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                        <li><a href="<?php echo htmlentities("https://www.facebook.com/centroespiritualmaestrosdelamor/"); ?>" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
                     </ul>
                 </section>
                 <div class="copyright">
