@@ -3,7 +3,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="videos/testimony01.mp4" target="_self"><video src="videos/testimony01.mp4" controls width="100%" height="300" /></a>
+                <a href="videos/testimony01.mp4" target="_self"><video src="videos/testimony01.mp4" controls width="100%" height="300"></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Si esto te pasa también a ti no te quedes de brazos cruzados consulta hoy mismo con nosotros y te brindaremos una consulta.
@@ -14,7 +14,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="videos/testimony02.mp4" target="_self"><video src="videos/testimony02.mp4" controls width="100%" height="300" /></a>
+                <a href="videos/testimony02.mp4" target="_self"><video src="videos/testimony02.mp4" controls width="100%" height="300"></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Si esto te pasa también a ti no te quedes de brazos cruzados consulta hoy mismo con nosotros y te brindaremos una consulta.
@@ -25,7 +25,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony01.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony01.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony01.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony01.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio de una persona que perdió su pareja por problemas con la familia de ella, hoy en día están felices y pronto
@@ -38,7 +38,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony02.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony02.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony02.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony02.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Su nombre es Martín por mucho tiempo estuvo preocupado por la salud de su pequeño hijo el cual los médicos no daban muchas
@@ -53,7 +53,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony10.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony10.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony10.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony10.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Ella es la señora Olga anteriormente fue azotada por una enfermedad postiza la cual los doctores no podían encontrar la raíz
@@ -66,7 +66,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony12.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony12.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony12.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony12.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Su padre tenía cuatro meses en cama, los médicos no le ayudaron, gasto en costosos tratamientos, se le entumieron sus pies y en una crisis nerviosa
@@ -79,7 +79,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony06.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony06.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony06.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony06.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio de fe de una persona la esposa le había abandonado después de un año y medio nos visitó y vimos que la tenían manipulada con magia negra,
@@ -92,7 +92,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony03.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony03.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony03.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony03.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio de una persona que intentó quitarse la vida ya que su pareja la abandono por un año después de estar en Estados Unidos con su querida,
@@ -105,7 +105,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony04.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony04.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony04.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony04.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio de fe de una familia con muchos problemas ya que su esposo le abandono y se fue con su querida, el cayó en las garras del
@@ -119,7 +119,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony05.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony05.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony05.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony05.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio de fe y agradecimiento por parte de quien vio el mal que les hicieron a él y su pareja, perdió su trabajo y todo le salía mal,
@@ -132,7 +132,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony07.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony07.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony07.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony07.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Dios los Bendiga a todos primeramente, vengo a traerles el testimonio real de la señora Amanda quien padecía de una fuerte brujería por una persona
@@ -145,7 +145,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony08.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony08.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony08.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony08.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio de fe de una persona que todo le salía mal y no podía vender su terreno, tenía deudas y hasta perdió su familia, después de 48
@@ -158,7 +158,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony09.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony09.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony09.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony09.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio de fe de una persona que sufrió durante años el desprecio de su esposa quien le abandono por dos años y hoy liberado del
@@ -171,7 +171,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/testimonys/testimony11.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony11.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/testimonys/testimony11.jpeg" class="image featured" target="_self"><img src="images/testimonys/testimony11.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#testimonios">TESTIMONIO</a></h3>
                 <p>
                     Testimonio y agradecimiento de persona que no le salían las cosas bien y estaba endeudado , quería vender sus terrenos para no perderlo todo,

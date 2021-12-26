@@ -3,7 +3,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service01.jpeg" class="image featured" target="_self"><img src="images/services/service01.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service01.jpeg" class="image featured" target="_self"><img src="images/services/service01.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#servicios">AMARRE DE AMOR ETERNO</a></h3>
                 <p>
                     ¿Quieres que el amor verdadero llegue a tu vida? ¿Sientes que ya no te ama? 
@@ -16,7 +16,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service02.jpeg" class="image featured" target="_self"><img src="images/services/service02.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service02.jpeg" class="image featured" target="_self"><img src="images/services/service02.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#servicios">HECHIZOS DE AMOR</a></h3>
                 <p>
                     ¿Ya no es lo mismo? Renueva el amor con tu pareja, recupera el amor perdido, enamora a la persona que desees 
@@ -29,7 +29,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service03.jpeg" class="image featured" target="_self"><img src="images/services/service03.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service03.jpeg" class="image featured" target="_self"><img src="images/services/service03.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#servicios">UNION DE PAREJAS</a></h3>
                 <p>
                     ¿Te sientes solo ó quizá desesperado con tu relación de pareja? ¿Se han cruzado terceras personas en tu relación? 
@@ -42,7 +42,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service04.jpeg" class="image featured" target="_self"><img src="images/services/service04.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service04.jpeg" class="image featured" target="_self"><img src="images/services/service04.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <h3><a href="index.php#servicios">RETORNO DE PAREJAS</a></h3>
                 <p>
                     ¿Sientes que estás perdiendo el amor de tu pareja? ¿Se fue de tu lado o te cambio por otra persona y deseas recuperarla?
@@ -54,7 +54,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service05.jpeg" class="image featured" target="_self"><img src="images/services/service05.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service05.jpeg" class="image featured" target="_self"><img src="images/services/service05.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">RITUALES DE ATRACCIÓN</a></h3>
                 </header>
@@ -68,7 +68,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service06.jpeg" class="image featured" target="_self"><img src="images/services/service06.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service06.jpeg" class="image featured" target="_self"><img src="images/services/service06.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">AMARRES DEL MISMO SEXO</a></h3>
                 </header>
@@ -83,7 +83,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href=images/services/service07.jpeg class="image featured" target="_self"><img src="images/services/service07.jpeg" alt="" width="100%" height="300" /></a>
+                <a href=images/services/service07.jpeg class="image featured" target="_self"><img src="images/services/service07.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">MAGIA BLANCA</a></h3>
                 </header>
@@ -98,7 +98,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service08.jpeg" class="image featured" target="_self"><img src="images/services/service08.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service08.jpeg" class="image featured" target="_self"><img src="images/services/service08.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">ENDULZAMIENTO</a></h3>
                 </header>
@@ -114,7 +114,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service09.jpeg" class="image featured" target="_self"><img src="images/services/service09.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service09.jpeg" class="image featured" target="_self"><img src="images/services/service09.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">PACTOS PARA LA SUERTE Y LA RIQUEZA</a></h3>
                 </header>
@@ -129,7 +129,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service10.jpeg" class="image featured" target="_self"><img src="images/services/service10.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service10.jpeg" class="image featured" target="_self"><img src="images/services/service10.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">PACTOS PARA PROTEGERLO DE SUS ENEMIGOS</a></h3>
                 </header>
@@ -144,7 +144,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service11.jpeg" class="image featured" target="_self"><img src="images/services/service11.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service11.jpeg" class="image featured" target="_self"><img src="images/services/service11.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">EXPULSION DE MALEFICIOS Y ENTIERROS</a></h3>
                 </header>
@@ -159,7 +159,7 @@
 
         <article>
             <div class="row aln-center">
-                <a href="images/services/service12.jpeg" class="image featured" target="_self"><img src="images/services/service12.jpeg" alt="" width="100%" height="300" /></a>
+                <a href="images/services/service12.jpeg" class="image featured" target="_self"><img src="images/services/service12.jpeg" alt="Image resource not found" width="100%" height="300" /></a>
                 <header>
                     <h3><a href="index.php#servicios">PROTECCION PARA SU NEGOCIO</a></h3>
                 </header>
