@@ -34,7 +34,7 @@ include 'utilitys/header.php';
         include 'footer.php';
         ?>
     </div>
+    <?php include 'utilitys/scripts.php'; ?>
 </body>
-<?php include 'utilitys/scripts.php'; ?>
 
 </html>
