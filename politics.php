@@ -50,7 +50,7 @@ include 'utilitys/header.php';
         </div>
         <?php include 'footer.php'; ?>
     </div>
+    <?php include 'utilitys/scripts.php'; ?>
 </body>
-<?php include 'utilitys/scripts.php'; ?>
 
 </html>
