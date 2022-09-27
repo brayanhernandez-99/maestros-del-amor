@@ -32,7 +32,7 @@ include 'utilitys/header.php';
                 <?php
                 if (isset($_REQUEST['send'])) {
                     if (isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['question'])) {
-                        include './class/Ccontact.php';
+                        include './class/Contact.php';
                         $Contacto = new Contacto(date("Y-m-d"), $_POST['name'], $_POST['phone'], $_POST['question']);
                         $Contacto->Enviar();
                     }

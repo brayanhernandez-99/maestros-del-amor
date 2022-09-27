@@ -27,7 +27,7 @@ class Contacto
             $consulta = "INSERT INTO Contacto VALUES (0,'$this->fecha','$this->nombre','$this->telefono','$this->consulta') ";
             if ($db->query($consulta)) {
                 echo '<script type = "text/javascript"> alert("Contacto exitoso, en breve nos comunicaremos contigo.");</script>';
-                echo "<script> self.location= './contacto.php' </script>";
+                echo "<script> self.location= './contact.php' </script>";
             } else {
                 echo '<script type="text/javascript"> alert("Error al enviar:\n' . $db->error . ' "); </script>';
             }
