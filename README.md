@@ -51,6 +51,11 @@ Este proyecto incluye un entorno de desarrollo completo con **PHP + Apache + MyS
         docker-compose down
     ```
 
+- Sirve para ejecutar comandos en el contenedor, esto te abre una terminal dentro del contenedor.
+    ```bash
+        docker exec -it maestros-del-amor bash
+    ```
+
 ---
 
 ## ℹ️ Notas importantes
