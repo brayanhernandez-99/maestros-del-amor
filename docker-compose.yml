@@ -7,7 +7,6 @@ services:
     volumes:
       - ./public:/var/www/html/maestrosdelamor/public
       - ./app:/var/www/html/maestrosdelamor/app
-      - ./storage:/var/www/html/maestrosdelamor/storage
     ports:
       - "8080:80"
     depends_on:
