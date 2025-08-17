@@ -1,12 +1,14 @@
 <?php
 
 define('APP_NAME', 'Maestros del Amor');
-define('APP_ENV', 'production'); // 'local', 'development', 'production'
-define('BASE_URL', 'https://dominio.com');
-define('ROOT_PATH', dirname(__DIR__));           // raíz del proyecto
-define('APP_PATH', ROOT_PATH . '/app');          // carpeta app
-define('STORAGE_PATH', ROOT_PATH . '/storage');  // carpeta storage
-define('PUBLIC_PATH', ROOT_PATH . '/public');    // carpeta pública
+define('BASE_URL', 'https://maestrosdelamor.local');
+define('APP_ENV', 'production');                    // 'local', 'development', 'production'
+
+define('ROOT_PATH', dirname(__DIR__));              // raíz
+define('APP_PATH', ROOT_PATH . '/app');             // carpeta app
+define('PUBLIC_PATH', ROOT_PATH . '/public');       // carpeta pública
+define('STORAGE_PATH', ROOT_PATH . '/storage');     // carpeta storage
+define('VIEWS_PATH', APP_PATH . '/views');          // carpeta de vistas
 
 define('DB_HOST', 'mysql');
 define('DB_NAME', 'mydb');

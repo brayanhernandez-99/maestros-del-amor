@@ -61,6 +61,7 @@ Este proyecto incluye un entorno de desarrollo completo con **PHP + Apache + MyS
 ## ℹ️ Notas importantes
 Si realizas cambios en el Dockerfile o en el docker-compose.yml, ejecuta:
 ```bash
+docker-compose down
 docker-compose build --no-cache
 docker-compose up -d
 ```
