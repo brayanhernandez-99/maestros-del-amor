@@ -1,11 +1,13 @@
 version: "3.8"
 
 services:
-  php-apache:
+  php:
     build: .
-    container_name: php-apache
+    container_name: maestros-del-amor
     volumes:
-      - ./:/var/www/html
+      - ./public:/var/www/html/maestrosdelamor/public
+      - ./app:/var/www/html/maestrosdelamor/app
+      - ./storage:/var/www/html/maestrosdelamor/storage
     ports:
       - "8080:80"
     depends_on:

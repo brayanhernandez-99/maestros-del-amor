@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^maestrosdelamor\.net\.co$
-RewriteRule ^\*\.maestrosdelamor\.net\.co\/?(.*)$ "https\:\/\/\*\.maestrosdelamor\.net\.co\/$1" [R=301,L]
