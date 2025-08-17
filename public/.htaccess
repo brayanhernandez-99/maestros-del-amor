@@ -1,0 +1,16 @@
+### 1. Forzar HTTPS y quitar www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.dominio\.com$ [NC]
+RewriteRule ^ https://dominio.com%{REQUEST_URI} [L,R=301]
+
+### 2. Servir directamente archivos y carpetas reales
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+### 3. Redirigir todo lo demás al front controller
+RewriteRule ^ index.php [L]
+
+#### 4. Bloquear acceso directo a /app y /storage
+RedirectMatch 403 ^/app/
+RedirectMatch 403 ^/storage/
