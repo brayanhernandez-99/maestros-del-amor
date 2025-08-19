@@ -56,6 +56,11 @@ Este proyecto incluye un entorno de desarrollo completo con **PHP + Apache + MyS
         docker exec -it maestros-del-amor bash
     ```
 
+- Ese un comando que te va a mostrar en tiempo real los logs del contenedor.
+    ```bash
+        docker logs -f maestros-del-amor
+    ```
+
 ---
 
 ## ℹ️ Notas importantes

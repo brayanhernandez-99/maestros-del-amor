@@ -4,18 +4,17 @@ $uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 
 switch ($uri) {
     case '':
-        require __DIR__ . '/../app/views/home.php';
-        break;
-        
     case 'index.php':
-        require __DIR__ . '/../app/views/home.php';
+        require VIEWS_PATH . '/home.php';
         break;
 
-    case 'about':
-        require __DIR__ . '/../app/views/about.php';
+    case 'conditions':
+    case 'conditions.php':
+        require VIEWS_PATH . '/conditions.php';
         break;
-        
+
     default:
-        require __DIR__ . '/../app/views/404.php';
+        http_response_code(404);
+        require LAYOUTS_PATH . '/error.php';
         break;
 }
