@@ -1,0 +1,46 @@
+# Dependencias de Composer
+/vendor/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Configuración de PHPStorm / IDEs
+/.idea/
+/.vscode/
+/nbproject/
+/*.sublime-workspace
+
+# Logs
+*.log
+*.err
+*.out
+
+# Cachés de Symfony / Laravel u otros frameworks
+/var/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+/bootstrap/cache/
+
+# Archivos de PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# Archivos temporales
+*.cache
+*.tmp
+*.swp
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de cobertura
+/coverage/
+
+# Archivos generados por composer
+composer.lock
