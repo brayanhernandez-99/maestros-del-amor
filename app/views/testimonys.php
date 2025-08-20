@@ -4,63 +4,63 @@
     </header>
     <div class="row gtr-25">
         <div class="col-6">
-            <a href="/images/testimonys/testimony01.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony01.jpeg" alt="" />
+            <a href="/images/testimonys/image1.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image1.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony02.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony02.jpeg" alt="" />
+            <a href="/images/testimonys/image2.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image2.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony03.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony03.jpeg" alt="" />
+            <a href="/images/testimonys/image3.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image3.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony04.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony04.jpeg" alt="" />
+            <a href="/images/testimonys/image4.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image4.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony05.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony05.jpeg" alt="" />
+            <a href="/images/testimonys/image5.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image5.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony06.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony06.jpeg" alt="" />
+            <a href="/images/testimonys/image6.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image6.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony07.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony07.jpeg" alt="" />
+            <a href="/images/testimonys/image7.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image7.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony08.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony08.jpeg" alt="" />
+            <a href="/images/testimonys/image8.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image8.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony09.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony09.jpeg" alt="" />
+            <a href="/images/testimonys/image9.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image9.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony10.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony10.jpeg" alt="" />
+            <a href="/images/testimonys/image10.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image10.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony11.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony11.jpeg" alt="" />
+            <a href="/images/testimonys/image11.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image11.jpeg" alt="" />
             </a>
         </div>
         <div class="col-6">
-            <a href="/images/testimonys/testimony12.jpeg" class="image fit" target="_blank">
-                <img src="/images/testimonys/testimony12.jpeg" alt="" />
+            <a href="/images/testimonys/image12.jpeg" class="image fit" target="_blank">
+                <img src="/images/testimonys/image12.jpeg" alt="" />
             </a>
         </div>
     </div>

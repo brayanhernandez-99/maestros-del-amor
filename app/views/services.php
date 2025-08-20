@@ -2,8 +2,8 @@
     <div class="reel">
 
         <article>
-            <a href="/images/services/service01.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service01.jpeg" alt="" />
+            <a href="/images/services/image1.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image1.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Pulvinar sagittis congue</a></h3>
@@ -12,8 +12,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service02.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service02.jpeg" alt="" />
+            <a href="/images/services/image2.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image2.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Fermentum sagittis proin</a></h3>
@@ -22,8 +22,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service03.jpeg.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service03.jpeg.jpeg" alt="" />
+            <a href="/images/services/image3.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image3.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Sed quis rhoncus placerat</a></h3>
@@ -32,8 +32,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service04.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service04.jpeg" alt="" />
+            <a href="/images/services/image4.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image4.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Ultrices urna sit lobortis</a></h3>
@@ -42,8 +42,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service05.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service05.jpeg" alt="" />
+            <a href="/images/services/image5.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image5.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Varius magnis sollicitudin</a></h3>
@@ -52,8 +52,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service06.jpeg" class="image featured" target="_blank">
-            <img src="/images/services/service06.jpeg" alt="" />
+            <a href="/images/services/image6.jpeg" class="image featured" target="_blank">
+            <img src="/images/services/image6.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Pulvinar sagittis congue</a></h3>
@@ -62,8 +62,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service07.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service07.jpeg" alt="" />
+            <a href="/images/services/image7.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image7.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Fermentum sagittis proin</a></h3>
@@ -72,8 +72,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service08.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service08.jpeg" alt="" />
+            <a href="/images/services/image8.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image8.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Sed quis rhoncus placerat</a></h3>
@@ -82,8 +82,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service09.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service09.jpeg" alt="" />
+            <a href="/images/services/image9.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image9.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Ultrices urna sit lobortis</a></h3>
@@ -92,8 +92,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service10.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service10.jpeg" alt="" />
+            <a href="/images/services/image10.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image10.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Varius magnis sollicitudin</a></h3>
@@ -102,8 +102,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service11.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service11.jpeg" alt="" />
+            <a href="/images/services/image11.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image11.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Varius magnis sollicitudin</a></h3>
@@ -112,8 +112,8 @@
         </article>
 
         <article>
-            <a href="/images/services/service12.jpeg" class="image featured" target="_blank">
-                <img src="/images/services/service12.jpeg" alt="" />
+            <a href="/images/services/image12.jpeg" class="image featured" target="_blank">
+                <img src="/images/services/image12.jpeg" alt="" />
             </a>
             <header>
                 <h3><a href="#banner">Varius magnis sollicitudin</a></h3>

@@ -40,7 +40,7 @@
 					<p>
 						Si a pesar de tus esfuerzos no logras alcanzar el éxito en tu vida, si te sientes solo, sin amor, con problemas de salud que no tienen explicación, 
 						o si la pobreza y la mala suerte parecen seguirte, ha llegado el momento de acudir a los 
-						<a href="https://wa.me/573192031330?text=Hola%20maestro,%20busco%20un%20servicio">Maestros del Amor</a>.  
+						<a href="https://wa.me/+57123456789?text=Hola%20maestro,%20busco%20un%20servicio">Maestros del Amor</a>.  
 						<br><br>
 						Te ofrecemos resultados garantizados: si no quedas satisfecho(a) con el trabajo realizado, 
 						te devolveremos el 100% de tu dinero, incluyendo el valor de los materiales utilizados.  
@@ -153,7 +153,7 @@
 										</p>										
 										<ul class="icons">
 											<li><a href="/" class="icon brands fa-dribbble"><span class="label">Web site</span></a></li>
-											<li><a href="https://wa.me/573192031330?text=Hola%20maestro,%20busco%20un%20servicio" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+											<li><a href="https://wa.me/+57123456789?text=Hola%20maestro,%20busco%20un%20servicio" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
 										</ul>
 									</section>
 
