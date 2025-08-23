@@ -17,6 +17,11 @@ define('DB_USER', 'root');
 define('DB_PASS', 'root');
 define('DB_CHARSET', 'utf8');
 
+define('WHATSAPP_PHONE', '+57123456789');
+define('WHATSAPP_MESSAGE', 'Hola maestro, busco un servicio');
+define('WHATSAPP_URL', 'https://wa.me/' . WHATSAPP_PHONE . '?text=' . urlencode(WHATSAPP_MESSAGE));
+
+
 // Conexión PDO (si quieres usarla en toda la app)
 try {
     $pdo = new PDO(

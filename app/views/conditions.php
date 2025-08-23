@@ -57,6 +57,6 @@ include 'utilitys/header.php';
         <?php include 'footer.php'; ?>
     </div>
 
-    <?php include 'utilitys/scripts.php'; ?>
+    <?php include 'utilitys/script.php'; ?>
 </body>
 </html>
