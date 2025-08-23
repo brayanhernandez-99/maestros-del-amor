@@ -244,6 +244,29 @@ input, select, textarea {
 	}
 
 
+	.scroll-down {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 70px;        
+		height: 70px;
+		background-color: #ff3c6a; 
+		border-radius: 50%;
+		color: #fff;
+		text-decoration: none;
+		font-size: 2rem;   
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+		margin-top: 30px; 
+	}
+
+	.scroll-down:hover {
+		color: #fff;
+		transform: translateY(5px);
+		box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+	}
+
+
 /* Container */
 
 	.container {
@@ -2575,6 +2598,25 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+
+
+	.scroll-down {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		width: 70px;        
+		height: 70px;
+		background-color: #ff3c6a; 
+		border-radius: 50%;
+		color: #fff;
+		text-decoration: none;
+		font-size: 2rem;   
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+		margin-top: 30px; 
+	}
+
+
 
 
 	/* Carousel Featured Image */

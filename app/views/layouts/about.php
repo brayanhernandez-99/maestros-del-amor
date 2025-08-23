@@ -1,5 +1,4 @@
 <div class="row">
-    <hr />
     <div class="col-12">
 
         <!-- Contact -->

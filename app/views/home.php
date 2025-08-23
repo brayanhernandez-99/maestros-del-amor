@@ -13,22 +13,24 @@
 			<!-- Header -->
 			<div id="header">
 
-				<!-- Inner -->
-					<div class="inner">
-						<header>
-							<h1><a href="/" id="logo">Maestros del amor</a></h1>
-							<hr />
-							<p>
-								Consulta con nosotros, nuestros profesionales te estarán esperando <br>
-								para brindarte la mejor atención y ayudarte a encontrar la solución que necesitas.
-							</p>
-						</header>
-						<footer>
-							<a href="#services" class="button circled scrolly">Servicios</a>
-						</footer>
-					</div>
+				<!-- Home -->
+				<div class="inner">
+					<header>
+						<h1><a href="/" id="logo">Maestros del amor</a></h1>
+						<hr />
+						<p>
+							Consulta con nosotros, nuestros profesionales te estarán esperando <br>
+							para brindarte la mejor atención y ayudarte a encontrar la solución que necesitas.
+						</p>
+					</header>
+					<footer>
+						<a href="#banner" class="scrolly scroll-down">
+							<i class="fas fa-chevron-down"></i>
+						</a>
+					</footer>
+				</div>
 
-				<!-- Nav -->
+				<!-- Nav Bar -->
 				<?php require_once LAYOUTS_PATH . '/nav.php'; ?>
 
 			</div>
@@ -36,7 +38,7 @@
 			<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2><a>Garantizamos todos nuestros trabajos</a></h2>
+					<h2><a class="scrolly" href="#services">Garantizamos todos nuestros trabajos</a></h2>
 					<p>
 						Si a pesar de tus esfuerzos no logras alcanzar el éxito en tu vida, si te sientes solo, sin amor, con problemas de salud que no tienen explicación, 
 						o si la pobreza y la mala suerte parecen seguirte, ha llegado el momento de acudir a los
@@ -50,74 +52,65 @@
 				</header>
 			</section>
 
-			<!-- Carousel -->
+			<!-- Servicios -->
 			<?php require_once VIEWS_PATH . '/services.php'; ?>
 			
 
 			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
+			<div id="footer">
+				<div class="container">
+					<div class="row">
 
-							<!-- Comentarios -->
-							<?php require_once VIEWS_PATH . '/comments.php'; ?>
+						<!-- Comentarios -->
+						<?php require_once VIEWS_PATH . '/comments.php'; ?>
 
-							<!-- Posts -->
-								<section class="col-4 col-12-mobile">
-									<header>
-										<h2 class="icon solid fa-video circled"><span class="label">Posts</span></h2>
-									</header>
-									<ul class="divided">
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a class="scrolly" href="#comments">Nisl fermentum integer</a></h3>
-												</header>
-												<span class="timestamp">hace 3 horas</span>
-											</article>
-										</li>
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a class="scrolly" href="#comments">Phasellus portitor lorem</a></h3>
-												</header>
-												<span class="timestamp">hace 6 horas</span>
-											</article>
-										</li>
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a class="scrolly" href="#comments">Magna tempus consequat</a></h3>
-												</header>
-												<span class="timestamp">ayer</span>
-											</article>
-										</li>
-										<li>
-											<article class="post stub">
-												<header>
-													<h3><a class="scrolly" href="#comments">Feugiat lorem ipsum</a></h3>
-												</header>
-												<span class="timestamp">hace 2 días</span>
-											</article>
-										</li>
-									</ul>
-								</section>
+						<!-- Videos -->
+						<section class="col-4 col-12-mobile">
+							<header>
+								<h2 class="icon solid fa-video circled"><span class="label">Posts</span></h2>
+							</header>
+							<ul class="divided">
+								<li>
+									<article class="post stub">
+										<video width="auto" height="auto" controls>
+											<source src="/images/videos/video1.mp4" type="video/mp4">
+											Tu navegador no soporta la reproducción de videos.
+										</video>
+										<header>
+											<h3><a class="scrolly tweet autor" href="#comments">- Diego Guzmán</a></h3>
+										</header>
+										<span class="timestamp">hace 6 días</span>
+									</article>
+								</li>
+								<li>
+									<article class="post stub">
+										<video width="auto" height="auto" controls>
+											<source src="/images/videos/video2.mp4" type="video/mp4">
+											Tu navegador no soporta la reproducción de videos.
+										</video>
+										<header>
+											<h3><a class="scrolly tweet autor" href="#comments">- Margarita Guzmán</a></h3>
+										</header>
+										<span class="timestamp">hace 3 semanas</span>
+									</article>
+								</li>
+							</ul>
+						</section>
 
-							<!-- Testimonios -->
-							<?php require_once VIEWS_PATH . '/testimonys.php'; ?>
-
-						</div>
-
-						<!-- Contacto -->
-						<?php require_once LAYOUTS_PATH . '/about.php'; ?>
-
+						<!-- Testimonios -->
+						<?php require_once VIEWS_PATH . '/testimonys.php'; ?>
 
 					</div>
-				</div>
+					<hr />
 
+					<!-- Contacto -->
+					<?php require_once LAYOUTS_PATH . '/about.php'; ?>
+
+				</div>
+			</div>
 		</div>
 
 		<?php require_once LAYOUTS_PATH . '/scripts.php'; ?>
-
+		
 	</body>
 </html>

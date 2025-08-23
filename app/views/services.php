@@ -6,7 +6,7 @@
                 <img src="/images/services/image1.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Pulvinar sagittis congue</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Pulvinar sagittis congue</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -16,7 +16,7 @@
                 <img src="/images/services/image2.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Fermentum sagittis proin</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Fermentum sagittis proin</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -26,7 +26,7 @@
                 <img src="/images/services/image3.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Sed quis rhoncus placerat</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Sed quis rhoncus placerat</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -36,7 +36,7 @@
                 <img src="/images/services/image4.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Ultrices urna sit lobortis</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Ultrices urna sit lobortis</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -46,7 +46,7 @@
                 <img src="/images/services/image5.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Varius magnis sollicitudin</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Varius magnis sollicitudin</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -56,7 +56,7 @@
             <img src="/images/services/image6.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Pulvinar sagittis congue</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Pulvinar sagittis congue</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -66,7 +66,7 @@
                 <img src="/images/services/image7.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Fermentum sagittis proin</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Fermentum sagittis proin</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -76,7 +76,7 @@
                 <img src="/images/services/image8.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Sed quis rhoncus placerat</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Sed quis rhoncus placerat</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -86,7 +86,7 @@
                 <img src="/images/services/image9.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Ultrices urna sit lobortis</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Ultrices urna sit lobortis</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -96,7 +96,7 @@
                 <img src="/images/services/image10.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Varius magnis sollicitudin</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Varius magnis sollicitudin</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -106,7 +106,7 @@
                 <img src="/images/services/image11.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Varius magnis sollicitudin</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Varius magnis sollicitudin</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
@@ -116,7 +116,7 @@
                 <img src="/images/services/image12.jpeg" alt="" />
             </a>
             <header>
-                <h3><a href="#banner">Varius magnis sollicitudin</a></h3>
+                <h3><a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Varius magnis sollicitudin</a></h3>
             </header>
             <p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
         </article>
