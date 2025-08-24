@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirigir HTTP a HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Permitir sitemap.xml antes de bloquear storage
+RewriteCond %{REQUEST_URI} ^/storage/sitemap\.xml$
+RewriteRule ^ - [L]
+
+# # Bloquear todo lo demás dentro de /storage
+RewriteCond %{REQUEST_URI} ^/storage(/.*)?$
+RewriteRule ^ - [F,L]
+
+# Bloquear acceso directo a /app
+RewriteCond %{REQUEST_URI} ^/app(/.*)?$
+RewriteRule ^ - [F,L]
+
+# Servir directamente archivos y carpetas reales
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Redirigir todo lo demás al front controller
+RewriteRule ^ index.php [L]
