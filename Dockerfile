@@ -18,7 +18,7 @@ COPY ./storage/certs/maestrosdelamor.key /etc/ssl/private/
 # Copiar VirtualHost y habilitarlo
 # Habilitar el sitio y deshabilitar el por defecto
 # Permisos correctos para el archivo de configuración
-COPY ./storage/VirtualHost.conf /etc/apache2/sites-available/maestrosdelamor.conf
+COPY ./storage/virtual-host.conf /etc/apache2/sites-available/maestrosdelamor.conf
 RUN a2ensite maestrosdelamor.conf
 RUN a2dissite 000-default.conf
 RUN chmod 644 /etc/apache2/sites-available/maestrosdelamor.conf
