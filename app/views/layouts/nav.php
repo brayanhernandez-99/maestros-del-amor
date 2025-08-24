@@ -1,6 +1,6 @@
 <nav id="nav">
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="<?= BASE_URL ?>">Home</a></li>
         <li>
             <a class="scrolly" href="#services">Servicios</a>
             <ul>
@@ -31,6 +31,8 @@
         </li>
         <li><a class="scrolly" href="#comments">Testimonios</a></li>
         <li><a class="scrolly" href="#about">Contactanos</a></li>
-        <li><a class="scrolly" href="/conditions">Terminos y condiciones</a></li>
     </ul>
 </nav>
+
+<!-- WhatsApp Float Button -->
+<a href="<?php echo WHATSAPP_URL; ?>" class="whatsapp-float" target="_blank"><img src="<?= BASE_URL ?>/images/whatsapp.ico" alt="WhatsApp" /></a> 

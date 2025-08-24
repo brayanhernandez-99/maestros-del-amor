@@ -4,8 +4,9 @@
 		<title>Maestros del Amor</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="/assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/main.css" />
+		<link rel="icon" href="<?= BASE_URL ?>/images/maestrosdelamor.ico" type="image/x-icon">
+		<noscript><link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -16,7 +17,7 @@
 				<!-- Home -->
 				<div class="inner">
 					<header>
-						<h1><a href="/" id="logo">Maestros del amor</a></h1>
+						<h1><a href="<?= BASE_URL ?>" id="logo">Maestros del amor</a></h1>
 						<hr />
 						<p>
 							Consulta con nosotros, nuestros profesionales te estarán esperando <br>
@@ -73,8 +74,7 @@
 								<li>
 									<article class="post stub">
 										<video width="auto" height="auto" controls>
-											<source src="/images/videos/video1.mp4" type="video/mp4">
-											Tu navegador no soporta la reproducción de videos.
+											<source src="<?= BASE_URL ?>/images/videos/video1.mp4" type="video/mp4">
 										</video>
 										<header>
 											<h3><a class="scrolly tweet autor" href="#comments">- Diego Guzmán</a></h3>
@@ -85,8 +85,7 @@
 								<li>
 									<article class="post stub">
 										<video width="auto" height="auto" controls>
-											<source src="/images/videos/video2.mp4" type="video/mp4">
-											Tu navegador no soporta la reproducción de videos.
+											<source src="<?= BASE_URL ?>/images/videos/video2.mp4" type="video/mp4">
 										</video>
 										<header>
 											<h3><a class="scrolly tweet autor" href="#comments">- Margarita Guzmán</a></h3>

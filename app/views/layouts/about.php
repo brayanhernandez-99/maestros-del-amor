@@ -11,7 +11,7 @@
                     ¡Te esperamos para brindarte el mejor servicio a través de nuestros profesionales!
                 </p>										
                 <ul class="icons">
-                    <li><a href="/" class="icon brands fa-dribbble"><span class="label">Web site</span></a></li>
+                    <li><a href="<?= BASE_URL ?>" class="icon brands fa-dribbble"><span class="label">Web site</span></a></li>
                     <li><a href="<?php echo WHATSAPP_URL; ?>" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
                 </ul>
             </section>
@@ -19,7 +19,7 @@
         <!-- Copyright -->
         <div class="copyright">
             <ul class="menu">
-                <li>&copy; <a href="/">maestrosdelamor.local</a>. All rights reserved.</li><li>Design: <a href="/">maestrosdelamor.local</a></li>
+                <li>&copy; <a href="<?= BASE_URL ?>">maestrosdelamor.local</a>. All rights reserved.</li><li>Design: <a href="<?= BASE_URL ?>">maestrosdelamor.local</a></li>
             </ul>
         </div>
 
