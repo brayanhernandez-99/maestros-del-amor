@@ -11,12 +11,12 @@
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Amarres del mismo sexo</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Rituales de atracción</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Endulzamientos</a></li>
+                        <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Protégete de enemigos</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Magia blanca</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Atracción de dinero</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Mejora tu salud</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Libera tu aura</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Expulsión de maleficios</a></li>
-                        <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Protégete de enemigos</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Ruptura de brujerías</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Limpiezas energéticas</a></li>
                         <li><a class="scrolly" target="_blank" href="<?php echo WHATSAPP_URL; ?>">Rituales para conseguir trabajo</a></li>
