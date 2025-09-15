@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://maestrosdelamor.local/public/</loc>
-    <lastmod>2025-08-24</lastmod>
+    <loc>https://maestrosdelamor.local/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url><loc>https://maestrosdelamor.local/images/background.jpg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/icon.ico</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/amarres-amor.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/amarres-mismo-sexo.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/atraccion-dinero.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/endulzamientos.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/exito-negocios.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/expulsion-maleficios.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/libera-aura.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/limpiezas-energeticas.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/magia-blanca.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/mejora-salud.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/prosperidad.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/proteccion-enemigos.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/proteccion-envidia.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/rituales-atraccion.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/rituales-trabajo.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/ruptura-brujerias.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/suerte.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/services/union-familiar.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-1.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-2.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-3.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-4.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-5.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-6.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-7.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-8.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-9.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-10.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-11.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/testimonys/testimony-12.jpeg</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/videos/video-testimony-1.mp4</loc></url>
+  <url><loc>https://maestrosdelamor.local/images/videos/video-testimonys-2.mp4</loc></url>
 </urlset>

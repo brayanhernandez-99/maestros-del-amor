@@ -74,7 +74,7 @@
 								<li>
 									<article class="post stub">
 										<video width="auto" height="auto" controls>
-											<source src="<?= BASE_URL ?>/images/videos/video1.mp4" type="video/mp4">
+											<source src="<?= BASE_URL ?>/images/videos/video-testimony-1.mp4" type="video/mp4">
 										</video>
 										<header>
 											<h3><a class="scrolly tweet autor" href="#comments">- Diego Guzmán</a></h3>
@@ -85,7 +85,7 @@
 								<li>
 									<article class="post stub">
 										<video width="auto" height="auto" controls>
-											<source src="<?= BASE_URL ?>/images/videos/video2.mp4" type="video/mp4">
+											<source src="<?= BASE_URL ?>/images/videos/video-testimony-2.mp4" type="video/mp4">
 										</video>
 										<header>
 											<h3><a class="scrolly tweet autor" href="#comments">- Margarita Guzmán</a></h3>
