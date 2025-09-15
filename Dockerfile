@@ -7,6 +7,7 @@ RUN docker-php-ext-install mysqli pdo pdo_mysql
 # Habilitar SSL en Apache
 RUN a2enmod rewrite
 RUN a2enmod ssl
+RUN a2enmod headers
 
 # Establecer directorio de trabajo
 WORKDIR /var/www/html/maestrosdelamor
@@ -24,7 +25,7 @@ RUN a2dissite 000-default.conf
 RUN chmod 644 /etc/apache2/sites-available/maestrosdelamor.conf
 
 # Comando de inicio: ajustar permisos de storage y arrancar Apache
-RUN mkdir -p /var/www/html/maestrosdelamor/storage \
-    && chown -R www-data:www-data /var/www/html/maestrosdelamor/storage \
-    && chmod -R 775 /var/www/html/maestrosdelamor/storage
-CMD bash -c "chown -R www-data:www-data /var/www/html/maestrosdelamor/ && chmod -R 775 /var/www/html/maestrosdelamor/storage && apache2-foreground"
+RUN chown -R www-data:www-data /var/www/html/maestrosdelamor/
+RUN find /var/www/html/maestrosdelamor/ -name '.DS_Store' -exec rm -f {} \;
+RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+CMD ["apache2-foreground"]

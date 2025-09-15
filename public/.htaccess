@@ -1,15 +1,12 @@
+# Activar mod_rewrite
 RewriteEngine On
 RewriteBase /
 
-# Redirigir HTTP a HTTPS
+# Redirigir todo HTTP a HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Permitir sitemap.xml antes de bloquear storage
-RewriteCond %{REQUEST_URI} ^/storage/sitemap\.xml$
-RewriteRule ^ - [L]
-
-# # Bloquear todo lo demás dentro de /storage
+# Bloquear todo lo demás dentro de /storage
 RewriteCond %{REQUEST_URI} ^/storage(/.*)?$
 RewriteRule ^ - [F,L]
 
@@ -22,5 +19,5 @@ RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# Redirigir todo lo demás al front controller
+# Denegar todo lo que no sea /public (redirigir a index.php)
 RewriteRule ^ index.php [L]
