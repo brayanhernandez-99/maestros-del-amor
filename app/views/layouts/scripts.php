@@ -7,3 +7,5 @@
 <script src="<?= BASE_URL ?>/assets/js/breakpoints.min.js"></script>
 <script src="<?= BASE_URL ?>/assets/js/util.js"></script>
 <script src="<?= BASE_URL ?>/assets/js/main.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/timestamps.js"></script>
+
