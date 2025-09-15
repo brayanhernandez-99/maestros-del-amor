@@ -1,8 +1,7 @@
 <?php
 
 define('APP_NAME', 'Maestros del Amor');
-define('BASE_URL', 'https://maestrosdelamor.local/public');
-define('APP_ENV', 'production');                    // 'local', 'development', 'production'
+define('BASE_URL', 'https://maestrosdelamor.local');
 
 define('ROOT_PATH', dirname(__DIR__, 2));           // raíz
 define('APP_PATH', ROOT_PATH . '/app');             // carpeta app
