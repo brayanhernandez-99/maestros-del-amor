@@ -43,7 +43,7 @@
 					<p>
 						Si a pesar de tus esfuerzos no logras alcanzar el éxito en tu vida, si te sientes solo, sin amor, con problemas de salud que no tienen explicación, 
 						o si la pobreza y la mala suerte parecen seguirte, ha llegado el momento de acudir a los
-						<a href="<?php echo WHATSAPP_URL; ?>" target="_blank">Maestros del Amor</a>.  
+						<a href="<?php echo getWhatsappUrl('Amarres de amor'); ?>" target="_blank">Maestros del Amor</a>.  
 						<br><br>
 						Te ofrecemos resultados garantizados: si no quedas satisfecho(a) con el trabajo realizado, 
 						te devolveremos el 100% de tu dinero, incluyendo el valor de los materiales utilizados.  

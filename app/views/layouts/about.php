@@ -12,7 +12,7 @@
                 </p>										
                 <ul class="icons">
                     <li><a href="<?= BASE_URL ?>" class="icon brands fa-dribbble"><span class="label">Web site</span></a></li>
-                    <li><a href="<?php echo WHATSAPP_URL; ?>" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+                    <li><a href="<?php echo getWhatsappUrl('Amarres de amor'); ?>" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
                 </ul>
             </section>
 
