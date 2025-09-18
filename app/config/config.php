@@ -1,7 +1,7 @@
 <?php
 
 define('APP_NAME', 'Maestros del Amor');
-define('BASE_URL', 'https://maestrosdelamor.local');
+define('BASE_URL', 'https://maestrosdelamor.net');
 
 define('ROOT_PATH', dirname(__DIR__, 2));           // raíz
 define('APP_PATH', ROOT_PATH . '/app');             // carpeta app
@@ -23,13 +23,13 @@ define('WHATSAPP_URL', 'https://wa.me/' . WHATSAPP_PHONE . '?text=' . urlencode(
 
 
 // Conexión PDO (si quieres usarla en toda la app)
-try {
-    $pdo = new PDO(
-        "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET,
-        DB_USER,
-        DB_PASS,
-        [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
-    );
-} catch (PDOException $e) {
-    die("Error de conexión a BD: " . $e->getMessage());
-}
+// try {
+//     $pdo = new PDO(
+//         "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET,
+//         DB_USER,
+//         DB_PASS,
+//         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
+//     );
+// } catch (PDOException $e) {
+//     die("Error de conexión a BD: " . $e->getMessage());
+// }
