@@ -9,6 +9,9 @@ services:
     ports:
         - "80:80"
         - "443:443"
+    extra_hosts:
+      - "maestrosdelamor.local:127.0.0.1"
+      - "www.maestrosdelamor.local:127.0.0.1"
     depends_on:
       - mysql
     environment:
