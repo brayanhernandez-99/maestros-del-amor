@@ -2,22 +2,20 @@
 RewriteEngine On
 RewriteBase /
 
-# Redirigir todo HTTP a HTTPS
+# Forzar HTTPS siempre
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Bloquear todo lo demás dentro de /storage
-RewriteCond %{REQUEST_URI} ^/storage(/.*)?$
-RewriteRule ^ - [F,L]
-
 # Bloquear acceso directo a /app
-RewriteCond %{REQUEST_URI} ^/app(/.*)?$
-RewriteRule ^ - [F,L]
+RewriteRule ^app(/.*)?$ - [F,L]
 
-# Servir directamente archivos y carpetas reales
+# Bloquear acceso directo a /storage
+RewriteRule ^storage(/.*)?$ - [F,L]
+
+# Permitir acceso directo solo a archivos/carpetas dentro de /public
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 
-# Denegar todo lo que no sea /public (redirigir a index.php)
-RewriteRule ^ index.php [L]
+# Redirigir todo lo demás hacia /public/index.php
+RewriteRule ^(.*)$ public/index.php [L]
