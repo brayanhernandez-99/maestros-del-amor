@@ -35,4 +35,5 @@
 </nav>
 
 <!-- WhatsApp Float Button -->
-<a href="<?php echo getWhatsappUrl('Amarres de amor'); ?>" class="whatsapp-float" target="_blank"><img src="<?= BASE_URL ?>/images/whatsapp.ico" alt="WhatsApp" /></a> 
+ <?php $service = 'Consulta'; ?>
+<a href="<?php echo getWhatsappUrl($service); ?>" class="whatsapp-float" target="_blank"><img src="<?= BASE_URL ?>/images/whatsapp.ico" alt="WhatsApp" /></a> 
