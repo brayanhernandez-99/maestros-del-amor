@@ -66,7 +66,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
 
 	html {
 		box-sizing: border-box;
@@ -222,7 +221,6 @@ input, select, textarea {
 
 
 
-/* Button home page, arrow down */
 
 	.scroll-down {
 		display: inline-flex;
@@ -248,7 +246,6 @@ input, select, textarea {
 
 
 
-/* Tweet comments */
 
 	.tweet {
 		text-align: center;
@@ -275,23 +272,22 @@ input, select, textarea {
 
 
 
-/* WhatsApp Button */
 .whatsapp-footer-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;              /* espacio entre icono y texto */
-    padding: 6px 12px;      /* tamaño del botón */
-    background-color: #25D366; 
+    gap: 6px;
+    padding: 6px 12px;
+    background-color: #25D366;
     color: white;
     text-decoration: none;
     border-radius: 6px;
-    font-size: 0.9rem;      /* texto pequeño */
+    font-size: 0.9rem;
     font-weight: bold;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .whatsapp-footer-btn img {
-    width: 20px;   /* icono más pequeño */
+    width: 20px;
     height: 20px;
     object-fit: contain;
 }
@@ -303,8 +299,6 @@ input, select, textarea {
 }
 
 
-
-/* Button float WhatsApp */
 
 	.whatsapp-float {
 		position: fixed;
@@ -337,7 +331,6 @@ input, select, textarea {
 
 
 
-/* Container */
 
 	.container {
 		margin: 0 auto;
@@ -385,7 +378,6 @@ input, select, textarea {
 
 		}
 
-/* Row */
 
 	.row {
 		display: flex;
@@ -2588,7 +2580,6 @@ input, select, textarea {
 
 		}
 
-/* Sections/Article */
 
 	section, article {
 		margin-bottom: 3em;
@@ -2622,7 +2613,6 @@ input, select, textarea {
 		margin: 2.5em 0 0 0;
 	}
 
-/* Image */
 
 	.image {
 		position: relative;
@@ -2689,12 +2679,12 @@ input, select, textarea {
 
 
 
-/* Carousel Featured Image */
 
 	.carousel article {
 		position: relative;
 		border-radius: 8px;
-		transition: all 0.9s ease-in-out;
+		transition: all 0.3s ease-in-out;
+		z-index: 1;
 	}
 
 	.carousel article:hover {
@@ -2702,21 +2692,26 @@ input, select, textarea {
 		border: 3px solid rgb(254, 65, 100);
 		border-radius: 8px;
 		box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+		z-index: 10;
 	}
 
 
 
-/* Imagen dentro del article o Carousel */
 
 	.carousel .reel .image.featured img {
 		display: block;
 		width: 100%;
 		height: 250px;
 		object-fit: cover;
+		object-position: center top;
 		border-radius: 8px;
 	}
 
 	@media screen and (max-width: 736px) {
+		.carousel .reel .image.featured img {
+			height: 200px;
+		}
+
 		.image.left {
 			margin: 0 0 1em 0;
 		}
@@ -2727,7 +2722,6 @@ input, select, textarea {
 	}
 
 
-/* List */
 
 	ul {
 		list-style: disc;
@@ -2747,7 +2741,6 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
-/* Actions */
 
 	ul.actions {
 		margin: 3em 0 0 0;
@@ -2773,7 +2766,6 @@ input, select, textarea {
 				margin-right: 0;
 			}
 
-/* Divided */
 
 	ul.divided {
 		list-style: none;
@@ -2793,7 +2785,6 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
-/* Menu */
 
 	ul.menu {
 		height: 1em;
@@ -2815,7 +2806,6 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-/* Icons */
 
 	ul.icons {
 		position: relative;
@@ -2849,7 +2839,6 @@ input, select, textarea {
 					color: rgb(254, 65, 100);
 				}
 
-/* Form */
 
 	form label {
 		display: block;
@@ -2917,7 +2906,6 @@ input, select, textarea {
 		border: 0;
 	}
 
-/* Table */
 
 	table {
 		width: 100%;
@@ -2957,7 +2945,6 @@ input, select, textarea {
 				border-top: solid 2px #e5e5e5;
 			}
 
-/* Button */
 
 	input[type="button"],
 	input[type="submit"],
@@ -3007,7 +2994,6 @@ input, select, textarea {
 				background: #3B353C;
 			}
 
-/* Post */
 
 	.post.stub {
 		text-align: center;
@@ -3017,7 +3003,6 @@ input, select, textarea {
 			margin: 0;
 		}
 
-/* Icons */
 
 	.icon {
 		text-decoration: none;
@@ -3071,7 +3056,6 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
-/* Wrapper */
 
 	.wrapper {
 		background: #fff;
@@ -3083,7 +3067,6 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
-/* Header */
 
 	#header {
 		position: relative;
@@ -3221,7 +3204,6 @@ input, select, textarea {
 		text-decoration: underline;
 	}
 
-/* Nav */
 
 	#nav {
 		position: absolute;
@@ -3347,7 +3329,6 @@ input, select, textarea {
 				border-right: solid 0.75em rgba(64, 64, 64, 0);
 			}
 
-/* Banner */
 
 	#banner {
 		background: #fff;
@@ -3363,7 +3344,6 @@ input, select, textarea {
 			margin-right: 2em;
 		}
 
-/* Content */
 
 	#content > hr {
 		top: 3em;
@@ -3374,7 +3354,6 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-/* Sidebar */
 
 	#sidebar > hr {
 		top: 3em;
@@ -3389,7 +3368,6 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-/* Main */
 
 	#main {
 		margin-bottom: 0;
@@ -3399,7 +3377,6 @@ input, select, textarea {
 			padding-top: 2em;
 		}
 
-/* Footer */
 
 	#footer {
 		position: relative;
@@ -3447,12 +3424,11 @@ input, select, textarea {
 					color: rgb(254, 65, 100);
 				}
 
-/* Carousel */
 
 	.carousel {
 		position: relative;
 		overflow: hidden;
-		padding: 2em 0 2em 0;
+		padding: 2em 0 2.5em 0;
 		margin-bottom: 0;
 	}
 
@@ -3494,7 +3470,6 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				/* Borrar background-color: rgba(239, 131, 118, 0.75);*/
 				background-color: rgb(254, 65, 100);
 			}
 
@@ -3535,11 +3510,13 @@ input, select, textarea {
 
 		.carousel article {
 			display: inline-block;
+			vertical-align: top;
 			width: 18em;
 			background: #fff;
 			text-align: center;
-			padding: 0 1em 3em 1em;
+			padding: 0 1em 2em 1em;
 			margin: 0 2em 0 0;
+			height: 560px;
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;
@@ -3565,21 +3542,18 @@ input, select, textarea {
 				text-align: center;
 			}
 
-/* Wide */
 
 	@media screen and (max-width: 1680px) {
 
-		/* Basic */
 
 			body, input, textarea, select {
 				font-size: 14pt;
 				line-height: 1.75em;
 			}
 
-		/* Carousel */
 
 			.carousel {
-				padding: 1.5em 0 1.5em 0;
+				padding: 1.5em 0 2.5em 0;
 			}
 
 				.carousel .reel {
@@ -3587,31 +3561,30 @@ input, select, textarea {
 				}
 
 				.carousel article {
+					display: inline-block;
 					width: 18em;
-					margin: 0 1.25em 0 0;
+					vertical-align: top;
+					height: 560px;
+					margin: 0 2em 0 0;
 				}
 
 	}
 
-/* Normal */
 
 	@media screen and (max-width: 1280px) {
 
-		/* Basic */
 
 			body, input, textarea, select {
 				font-size: 12pt;
 				line-height: 1.5em;
 			}
 
-		/* Wrapper */
 
 			.wrapper {
 				padding-left: 2em;
 				padding-right: 2em;
 			}
 
-		/* Header */
 
 			#header {
 				background-attachment: scroll;
@@ -3622,14 +3595,12 @@ input, select, textarea {
 					padding-right: 2em;
 				}
 
-		/* Banner */
 
 			#banner {
 				padding-left: 2em;
 				padding-right: 2em;
 			}
 
-		/* Footer */
 
 			#footer {
 				padding-left: 2em;
@@ -3638,13 +3609,10 @@ input, select, textarea {
 
 	}
 
-/* Narrow */
 
-/* Narrower */
 
 	@media screen and (max-width: 840px) {
 
-		/* Basic */
 
 			body, input, textarea, select {
 				font-size: 13pt;
@@ -3660,26 +3628,18 @@ input, select, textarea {
 				text-align: center;
 			}
 
-		/* Footer */
 
 			#footer {
 				padding: 4em 2em 4em 2em;
 			}
 
-		/* Carousel */
 
 			.carousel {
-				padding: 1.25em 0 1.25em 0;
+				padding: 1.25em 0 2.5em 0;
 			}
-
-				.carousel article {
-					width: 18em;
-					margin: 0 1em 0 0;
-				}
 
 	}
 
-/* Mobile */
 
 	#navPanel, #titleBar {
 		display: none;
@@ -3687,7 +3647,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		/* Basic */
 
 			html, body {
 				overflow-x: hidden;
@@ -3711,7 +3670,6 @@ input, select, textarea {
 				margin-bottom: 6em;
 			}
 
-		/* Section/Article */
 
 			section, article {
 				margin-bottom: 2em;
@@ -3729,7 +3687,6 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
-		/* Image */
 
 			.image.featured {
 				margin: 0 0 2em 0;
@@ -3743,7 +3700,6 @@ input, select, textarea {
 				margin: 0 0 1em 0;
 			}
 
-		/* Actions */
 
 			form ul.actions {
 				margin-top: 0;
@@ -3758,7 +3714,6 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-		/* Menu */
 
 			ul.menu {
 				height: auto;
@@ -3776,7 +3731,6 @@ input, select, textarea {
 						padding-top: 0;
 					}
 
-		/* Icons */
 
 			ul.icons {
 				font-size: 1em;
@@ -3787,7 +3741,6 @@ input, select, textarea {
 					width: 2.25em;
 				}
 
-		/* Button */
 
 			input[type="button"],
 			input[type="submit"],
@@ -3800,7 +3753,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		/* Nav */
 
 			#page-wrapper {
 				-moz-backface-visibility: hidden;
@@ -3910,7 +3862,6 @@ input, select, textarea {
 					top: 0;
 					width: 100%;
 					height: 100%;
-					/* background: url("/images/overlay.png");*/
 					background-size: 128px 128px;
 				}
 
@@ -3984,13 +3935,11 @@ input, select, textarea {
 				transform: translateY(0);
 			}
 
-		/* Wrapper */
 
 			.wrapper {
 				padding: 3em 1em 3em 1em;
 			}
 
-		/* Header */
 
 			#header {
 				background-attachment: scroll;
@@ -4030,41 +3979,35 @@ input, select, textarea {
 					font-size: 2.5em;
 				}
 
-		/* Nav */
 
 			#nav {
 				display: none;
 			}
 
-		/* Banner */
 
 			#banner {
 				padding: 3em 2em 3em 2em;
 			}
 
-		/* Sidebar */
 
 			#sidebar > hr:first-of-type {
 				display: block;
 			}
 
-		/* Main */
 
 			#main > header {
 				text-align: center;
 			}
 
-		/* Footer */
 
 			#footer {
 				padding-left: 1em;
 				padding-right: 1em;
 			}
 
-		/* Carousel */
 
 			.carousel {
-				padding: 0.5em 0 0.5em 0;
+				padding: 0.5em 0 2.5em 0;
 			}
 
 				.carousel .reel {
@@ -4072,9 +4015,11 @@ input, select, textarea {
 				}
 
 				.carousel article {
+					display: inline-block;
 					width: 14em;
-					padding-bottom: 2em;
-					margin: 0 0.5em 0 0;
+					vertical-align: top;
+					height: 520px;
+					margin: 0 1em 0 0;
 				}
 
 					.carousel article .image {

@@ -1,4 +1,3 @@
-// Opciones de tiempo
 const opciones = [
   "hace 3 días",
   "hace 4 días",
@@ -11,11 +10,9 @@ const opciones = [
   "hace 3 meses"
 ];
 
-// Selecciona todos los timestamp
 const timestamps = document.querySelectorAll(".timestamp");
 
 timestamps.forEach(span => {
-  // Elige un valor aleatorio
   const random = opciones[Math.floor(Math.random() * opciones.length)];
   span.textContent = random;
 });

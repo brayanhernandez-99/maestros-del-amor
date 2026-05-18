@@ -1,6 +1,6 @@
 # 📌 Descripción del Proyecto
 
-Este proyecto es una aplicación web sencilla desarrollada utilizando **PHP**, **HTML** y **CSS**.  
+Este proyecto es una aplicación web sencilla desarrollada utilizando **PHP**, **HTML** y **CSS**.
 El objetivo principal es demostrar la integración de un backend básico con PHP y una interfaz de usuario estilizada con HTML y CSS.
 
 ## ✨ Características
@@ -20,12 +20,63 @@ El objetivo principal es demostrar la integración de un backend básico con PHP
 
 # 🚀 Levantar el Proyecto con Docker
 
-Este proyecto incluye un entorno de desarrollo completo con **PHP + Apache + MySQL + phpMyAdmin**, gestionado con **Docker** y **Docker Compose**.
+Este proyecto incluye un entorno de desarrollo completo con **PHP + Apache**, gestionado con **Docker** y **Docker Compose**.
+
+> 💡 **MySQL y phpMyAdmin están comentados** en `docker-compose.yml` porque no se usan actualmente. Si los necesitás en el futuro, solo descomentalos.
 
 ## 📦 Requisitos previos
 
 - [Docker](https://www.docker.com/get-started) instalado.
 - [Docker Compose](https://docs.docker.com/compose/install/) instalado.
+
+---
+
+## 🔐 Configuración del archivo .env
+
+El proyecto requiere un archivo `.env` en la raíz con las variables de entorno necesarias.
+
+**1. Copiá el ejemplo:**
+```bash
+cp .env.example .env
+```
+
+**2. Editá los valores según tu entorno:**
+```env
+APP_URL=https://maestrosdelamor.local
+
+# DB_HOST=mysql
+# DB_NAME=mydb
+# DB_USER=root
+# DB_PASS=root
+
+WHATSAPP_PHONE=+57123456789
+```
+
+> ⚠️ **Nunca compartas el archivo `.env`**. Ya está incluido en `.gitignore` para evitar que se suba al repositorio.
+
+### Producción (sin Docker)
+
+En un servidor Apache, podés pasar estas variables de dos formas:
+
+**Opción A - En el VirtualHost:**
+```apache
+SetEnv APP_URL https://tudominio.com
+# SetEnv DB_HOST localhost
+# SetEnv DB_NAME maestros
+# SetEnv DB_USER tu_usuario
+# SetEnv DB_PASS tu_password_seguro
+SetEnv WHATSAPP_PHONE +57123456789
+```
+
+**Opción B - En `.htaccess`:**
+```apache
+SetEnv APP_URL https://tudominio.com
+# SetEnv DB_HOST localhost
+# SetEnv DB_NAME maestros
+# SetEnv DB_USER tu_usuario
+# SetEnv DB_PASS tu_password_seguro
+SetEnv WHATSAPP_PHONE +57123456789
+```
 
 ---
 
@@ -39,9 +90,7 @@ Este proyecto incluye un entorno de desarrollo completo con **PHP + Apache + MyS
 - Levantar los contenedores
     Inicia los servicios en segundo plano (modo detach).
     Esto levantará:
-    - PHP + Apache → http://localhost:8080
-    - phpMyAdmin → http://localhost:8081
-    - MySQL en el puerto 3306
+    - PHP + Apache → https://maestrosdelamor.local
     ```bash
     docker-compose up -d
     ```
@@ -70,6 +119,3 @@ docker-compose down
 docker-compose build --no-cache
 docker-compose up -d
 ```
-Credenciales phpMyAdmin:
-- Usuario: root
-- Contraseña: root

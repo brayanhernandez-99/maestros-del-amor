@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /app/
-Disallow: /storage/
-
-Sitemap: https://maestrosdelamor.local/resources/sitemap.xml

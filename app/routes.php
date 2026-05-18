@@ -1,11 +1,9 @@
 <?php
-
-$uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/public');
-
+$uri = getSanitizedUri();
 switch ($uri) {
     case '':
     case 'index.php':
-        require VIEWS_PATH . '/home.php';
+        (new HomeController())->index();
         break;
 
     default:

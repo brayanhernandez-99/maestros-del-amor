@@ -1,7 +1,5 @@
 <div class="row">
     <div class="col-12">
-
-        <!-- Contact -->
             <section id="about" class="contact">
                 <header>
                     <h3>Contáctanos, estaremos felices de atenderte.</h3>
@@ -12,16 +10,13 @@
                 </p>										
                 <ul class="icons">
                     <li><a href="<?= BASE_URL ?>" class="icon brands fa-dribbble"><span class="label">Web site</span></a></li>
-                    <li><a href="<?php echo getWhatsappUrl('Amarres de amor'); ?>" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+                    <li><a href="<?php echo getWhatsappUrl('Consulta'); ?>" target="_blank" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
                 </ul>
             </section>
-
-        <!-- Copyright -->
         <div class="copyright">
             <ul class="menu">
-                <li>&copy; <a href="<?= BASE_URL ?>">maestrosdelamor.local</a>. All rights reserved.</li><li>Design: <a href="<?= BASE_URL ?>">maestrosdelamor.local</a></li>
+                <li>&copy; <a href="<?= BASE_URL ?>"><?= BASE_URL ?></a>. All rights reserved.</li><li>Design: <a href="<?= BASE_URL ?>"><?= BASE_URL ?></a></li>
             </ul>
         </div>
-
     </div>
 </div>

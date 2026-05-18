@@ -3,8 +3,8 @@
 
 # Archivos de entorno
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
 # Configuración de PHPStorm / IDEs
 /.idea/

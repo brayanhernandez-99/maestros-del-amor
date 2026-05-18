@@ -4,17 +4,28 @@
 		<title>Maestros del Amor</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/main.css" />
-		<link rel="icon" href="<?= BASE_URL ?>/images/favicon.ico" type="image/x-icon">
-		<noscript><link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/noscript.css" /></noscript>
+		<meta name="description" content="<?= htmlspecialchars($ogDescription ?? '') ?>" />
+
+		<meta property="og:title" content="<?= htmlspecialchars($ogTitle ?? APP_NAME) ?>" />
+		<meta property="og:description" content="<?= htmlspecialchars($ogDescription ?? '') ?>" />
+		<meta property="og:image" content="<?= htmlspecialchars($ogImage ?? '') ?>" />
+		<meta property="og:url" content="<?= htmlspecialchars($ogUrl ?? BASE_URL) ?>" />
+		<meta property="og:type" content="website" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="<?= htmlspecialchars($ogTitle ?? APP_NAME) ?>" />
+		<meta name="twitter:description" content="<?= htmlspecialchars($ogDescription ?? '') ?>" />
+		<meta name="twitter:image" content="<?= htmlspecialchars($ogImage ?? '') ?>" />
+
+		<link rel="stylesheet" href="<?= asset('assets/css/main.css') ?>" />
+		<link rel="icon" href="<?= asset('images/favicon.ico') ?>" type="image/x-icon">
+		<noscript><link rel="stylesheet" href="<?= asset('assets/css/noscript.css') ?>" /></noscript>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
 
-			<!-- Header -->
 			<div id="header">
 
-				<!-- Home -->
 				<div class="inner">
 					<header>
 						<h1><a href="<?= BASE_URL ?>" id="logo">Maestros del amor</a></h1>
@@ -31,12 +42,10 @@
 					</footer>
 				</div>
 
-				<!-- Nav Bar -->
 				<?php require_once LAYOUTS_PATH . '/nav.php'; ?>
 
 			</div>
 
-			<!-- Banner -->
 			<section id="banner">
 				<header>
 					<h2><a class="scrolly" href="#services">Garantizamos todos nuestros trabajos</a></h2>
@@ -53,19 +62,15 @@
 				</header>
 			</section>
 
-			<!-- Servicios -->
 			<?php require_once VIEWS_PATH . '/services.php'; ?>
 			
 
-			<!-- Footer -->
 			<div id="footer">
 				<div class="container">
 					<div class="row">
 
-						<!-- Comentarios -->
 						<?php require_once VIEWS_PATH . '/comments.php'; ?>
 
-						<!-- Videos -->
 						<section class="col-4 col-12-mobile">
 							<header>
 								<h2 class="icon solid fa-video circled"><span class="label">Posts</span></h2>
@@ -73,9 +78,9 @@
 							<ul class="divided">
 								<li>
 									<article class="post stub">
-										<video width="auto" height="auto" controls>
-											<source src="<?= BASE_URL ?>/images/videos/video-testimony-1.mp4" type="video/mp4">
-										</video>
+									<video width="auto" height="auto" controls preload="metadata">
+										<source src="<?= asset('images/videos/video-testimony-1.mp4') ?>" type="video/mp4">
+									</video>
 										<header>
 											<h3><a class="scrolly tweet autor" href="#comments">- Diego Guzmán</a></h3>
 										</header>
@@ -84,9 +89,9 @@
 								</li>
 								<li>
 									<article class="post stub">
-										<video width="auto" height="auto" controls>
-											<source src="<?= BASE_URL ?>/images/videos/video-testimony-2.mp4" type="video/mp4">
-										</video>
+									<video width="auto" height="auto" controls preload="metadata">
+										<source src="<?= asset('images/videos/video-testimony-2.mp4') ?>" type="video/mp4">
+									</video>
 										<header>
 											<h3><a class="scrolly tweet autor" href="#comments">- Margarita Guzmán</a></h3>
 										</header>
@@ -96,13 +101,11 @@
 							</ul>
 						</section>
 
-						<!-- Testimonios -->
 						<?php require_once VIEWS_PATH . '/testimonys.php'; ?>
 
 					</div>
 					<hr />
 
-					<!-- Contacto -->
 					<?php require_once LAYOUTS_PATH . '/about.php'; ?>
 
 				</div>

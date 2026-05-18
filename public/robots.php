@@ -6,15 +6,14 @@ if (file_exists($envFile)) {
         if ($line && strpos($line, '#') !== 0 && strpos($line, '=') !== false) {
             list($key, $value) = explode('=', $line, 2);
             putenv(trim($key) . '=' . trim($value));
-            $_ENV[trim($key)] = trim($value);
         }
     }
 }
 
-error_reporting(E_ALL);
-ini_set('display_errors', 0);
-ini_set('log_errors', 1);
-
-require_once __DIR__ . '/../app/config/config.php';
-require_once __DIR__ . '/../app/controllers/HomeController.php';
-require_once __DIR__ . '/../app/routes.php';
+$baseUrl = getenv('APP_URL');
+header('Content-Type: text/plain; charset=utf-8');
+echo "User-agent: *\n";
+echo "Allow: /\n\n";
+echo "Disallow: /app/\n";
+echo "Disallow: /storage/\n\n";
+echo "Sitemap: " . $baseUrl . "/sitemap.xml\n";

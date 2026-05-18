@@ -4,7 +4,6 @@
 		$body = $('body'),
 		settings = {
 
-			// Carousels
 				carousels: {
 					speed: 4,
 					fadeIn: true,
@@ -13,7 +12,6 @@
 
 		};
 
-	// Breakpoints.
 		breakpoints({
 			wide:      [ '1281px',  '1680px' ],
 			normal:    [ '961px',   '1280px' ],
@@ -22,14 +20,12 @@
 			mobile:    [ null,      '736px'  ]
 		});
 
-	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
 		});
 
-	// Dropdowns.
 		$('#nav > ul').dropotron({
 			mode: 'fade',
 			speed: 350,
@@ -37,12 +33,9 @@
 			alignment: 'center'
 		});
 
-	// Scrolly.
 		$('.scrolly').scrolly();
 
-	// Nav.
 
-		// Button.
 			$(
 				'<div id="navButton">' +
 					'<a href="#navPanel" class="toggle"></a>' +
@@ -50,7 +43,6 @@
 			)
 				.appendTo($body);
 
-		// Panel.
 			$(
 				'<div id="navPanel">' +
 					'<nav>' +
@@ -69,7 +61,6 @@
 					visibleClass: 'navPanel-visible'
 				});
 
-	// Carousels.
 		$('.carousel').each(function() {
 
 			var	$t = $(this),
@@ -85,7 +76,6 @@
 				reelWidth,
 				timerId;
 
-			// Items.
 				if (settings.carousels.fadeIn) {
 
 					$items.addClass('loading');
@@ -119,7 +109,6 @@
 
 				}
 
-			// Main.
 				$t._update = function() {
 					pos = 0;
 					rightLimit = (-1 * reelWidth) + $window.width();
@@ -129,7 +118,6 @@
 
 				$t._updatePos = function() { $reel.css('transform', 'translate(' + pos + 'px, 0)'); };
 
-			// Forward.
 				$forward
 					.appendTo($t)
 					.hide()
@@ -150,7 +138,6 @@
 						window.clearInterval(timerId);
 					});
 
-			// Backward.
 				$backward
 					.appendTo($t)
 					.hide()
@@ -172,7 +159,6 @@
 						window.clearInterval(timerId);
 					});
 
-			// Init.
 				$window.on('load', function() {
 
 					reelWidth = $reel[0].scrollWidth;

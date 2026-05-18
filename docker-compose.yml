@@ -1,7 +1,7 @@
 services:
   php:
     build: .
-    container_name: maestros-del-amor
+    container_name: maestrosdelamor
     volumes:
       - ./public:/var/www/html/maestrosdelamor/public
       - ./app:/var/www/html/maestrosdelamor/app
@@ -12,39 +12,44 @@ services:
     extra_hosts:
       - "maestrosdelamor.local:127.0.0.1"
       - "www.maestrosdelamor.local:127.0.0.1"
-    depends_on:
-      - mysql
-    environment:
-      MYSQL_HOST: mysql
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
-      MYSQL_DATABASE: mydb
+    # depends_on:
+    #   - mysql
+    env_file:
+      - .env
     restart: always
 
-  mysql:
-    image: mysql:8.0
-    container_name: mysql
-    command: --default-authentication-plugin=mysql_native_password
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: mydb
-    ports:
-      - "3306:3306"
-    volumes:
-      - db_data:/var/lib/mysql
-    restart: always
+  # ============================================================
+  # MySQL - Descomentar si se necesita base de datos en el futuro
+  # ============================================================
+  # mysql:
+  #   image: mysql:8.0
+  #   container_name: mysql
+  #   command: --default-authentication-plugin=mysql_native_password
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: root
+  #     MYSQL_DATABASE: mydb
+  #   # Remover puertos en producción
+  #   ports:
+  #     - "3306:3306"
+  #   volumes:
+  #     - db_data:/var/lib/mysql
+  #   restart: always
 
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin
-    environment:
-      PMA_HOST: mysql
-      MYSQL_ROOT_PASSWORD: root
-    ports:
-      - "8081:80"
-    depends_on:
-      - mysql
-    restart: always
+  # ============================================================
+  # phpMyAdmin - Descomentar si se necesita interfaz DB
+  # ============================================================
+  # phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin
+  #   container_name: phpmyadmin
+  #   environment:
+  #     PMA_HOST: mysql
+  #     MYSQL_ROOT_PASSWORD: root
+  #   # Remover puertos en producción
+  #   ports:
+  #     - "8081:80"
+  #   depends_on:
+  #     - mysql
+  #   restart: always
 
-volumes:
-  db_data:
+# volumes:
+#   db_data:
