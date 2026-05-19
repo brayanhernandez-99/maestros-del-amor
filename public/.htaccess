@@ -1,25 +1,18 @@
 RewriteEngine On
 RewriteBase /
 
+ErrorDocument 403 /index.php
+ErrorDocument 404 /index.php
+
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-<FilesMatch "\.(env|ini|log|sh|sql|git|gitignore|gitattributes|htaccess|htpasswd|yml|yaml|json|md|bak|dist|lock|phar|swp|swo)$">
-    Require all denied
-</FilesMatch>
-
-<FilesMatch "^(error_log|error\.log|access\.log)$">
-    Require all denied
-</FilesMatch>
-
-<FilesMatch "^(config\.php|composer\.(json|lock)|Dockerfile|docker-compose\.(yml|yaml)|\.editorconfig|Makefile)$">
-    Require all denied
-</FilesMatch>
-
-RewriteRule ^app(/.*)?$ - [F,L]
-
-RewriteRule ^storage(/.*)?$ - [F,L]
-
+RewriteRule ^(\.env|\.env\.example|\.git|\.gitignore|\.gitattributes|\.htaccess|\.htpasswd)$ index.php [L]
+RewriteRule ^.*\.(env|ini|log|sh|sql|git|gitignore|gitattributes|htaccess|htpasswd|yml|yaml|json|md|bak|dist|lock|phar|swp|swo)$ index.php [L]
+RewriteRule ^(error_log|error\.log|access\.log)$ index.php [L]
+RewriteRule ^(config\.php|composer\.(json|lock)|Dockerfile|docker-compose\.(yml|yaml)|\.editorconfig|Makefile)$ index.php [L]
+RewriteRule ^app(/.*)?$ index.php [L]
+RewriteRule ^storage(/.*)?$ index.php [L]
 RewriteRule ^robots\.txt$ robots.php [L]
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
 
